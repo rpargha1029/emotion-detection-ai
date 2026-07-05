@@ -1,0 +1,29 @@
+name: emotion-ai
+channels:
+- defaults
+- pytorch
+dependencies:
+- python=3.10
+- pip
+- pip:
+- torch
+- torchvision
+- torchaudio
+- opencv-python
+- opencv-contrib-python
+- numpy
+- pandas
+- matplotlib
+- seaborn
+- scikit-learn
+- tqdm
+- albumentations
+- tensorboard
+- onnx
+- onnxruntime
+- fastapi
+- uvicorn
+- streamlit
+- Pillow
+- requests
+- mtcnn
